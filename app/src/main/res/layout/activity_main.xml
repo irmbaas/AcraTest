@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ir.mbaas.acratest.MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="URI"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/et_uri"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:enabled="false"
+            android:text="http://mbaas.ir/api/acra"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="ID"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/et_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:hint="f1cdfa2d"
+            android:text=""/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15"
+            android:orientation="vertical"
+            android:padding="5dp">
+            <Button
+                android:id="@+id/exc_btn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NullPointer" />
+            <Button
+                android:id="@+id/exc_btn2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IndexOutOfBounds" />
+            <Button
+                android:id="@+id/exc_btn3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="InputMismatch" />
+            <Button
+                android:id="@+id/exc_btn4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IllegalState" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15"
+            android:orientation="vertical"
+            android:padding="5dp">
+            <Button
+                android:id="@+id/exc_btn5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IllegalThreadState" />
+            <Button
+                android:id="@+id/exc_btn6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="InputMismatch" />
+            <Button
+                android:id="@+id/exc_btn7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Arithmetic" />
+            <Button
+                android:id="@+id/exc_btn8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Runtime" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

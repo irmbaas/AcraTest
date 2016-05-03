@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AcraTest</string>
+
+    <string name="crash_toast_text">من کرش کردم! یک گزارش برای برنامه نویس خودم می فرستم تا مشکل را حل کند.</string>
+    <string name="crash_dialog_title">کرش</string>
+    <string name="crash_dialog_text">یک خطای غیرمنتظره رخ داده است، لطفا با کلیک بر روی دکمه OK به ما جهت رفع مشکل کمک کنید.</string>
+    <string name="crash_dialog_comment_prompt">لطفا در مورد مشکل نظر بدهید:</string>
+    <string name="crash_dialog_ok_toast">ممنون</string>
+    <string name="crash_user_email_label">ایمیل کاربر</string>
+
+    <string name="crash_notif_ticker_text">خطای غیرمنتظره، لطفا یک گزارش ارسال کنید ...</string>
+    <string name="crash_notif_title">AcraTest کرش کرد!</string>
+    <string name="crash_notif_text">جهت کمک به حل مشکل، اینجا را کلیک کنید.</string>
+    <string name="error_title">خطا</string>
+    <string name="invalid_id_msg">لطفا شناسه معتبر وارد نمائید.</string>
+</resources>
